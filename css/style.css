@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.insta-container {
+    width: 100%;
+    height: 1080px;
+
+}
+
+.insta-container__left {
+
+    display: flex;
+    align-items: end;
+    margin-top: 37px;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+
+}
+
+.insta-container__left-users {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta-logo {
+    width: 209px;
+    height: 58px;
+    margin-bottom: 55px;
+
+}
+
+.insta-container__content {
+    height: 100%;
+}
+
+.insta-container__content__items-left {
+    width: 1051px;
+    display: flex;
+    justify-content: start;
+
+    height: 100%;
+
+
+
+}
+
+.items-left-bacground {
+    width: 114px;
+    height: 747px;
+    background: #EFEFEF;
+    border-radius: 87px;
+    margin-left: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 167px;
+
+}
+
+.left-users__gradient {
+    background-image: linear-gradient(205.14deg, #D62977 11.68%, #ED8128 88.3%);
+    width: 97px;
+    height: 97px;
+    border-radius: 125px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 27px;
+}
+
+.left-users__gradient img {
+    background-image: linear-gradient(white, white);
+    border-radius: 125px;
+    padding: 3px;
+}
+
+.carousel.pointer-event {
+    touch-action: pan-y;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+
+    width: 100%;
+
+
+}
+
+.left-users {
+    position: relative;
+    margin-right: 28px;
+}
+
+.left-users__plus {
+    position: absolute;
+    top: 55px;
+    left: 48px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0095F6;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-users__plus img {
+    width: 17px;
+    height: 17px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    position: absolute;
+    width: 49px;
+    height: 97px;
+    background: #EFEFEF;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 111px;
+}
+
+.carusel__arrow {
+    width: 20px;
+    height: 36px;
+}
+
+.insta-content {
+    width: 896px;
+    height: 563px;
+    background: #EFEFEF;
+    border-radius: 36px;
+    position: absolute;
+    top: 276px;
+    left: 210px;
+}
+
+.carousel-control-next-icon1,
+.carousel-control-prev-icon1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow3 {
+    transform: rotate(180deg);
+}
+
+.insta-content__img {
+    max-width: 532px;
+}
+
+.insta-content__img2 {
+    display: flex;
+}
+
+.left-users__gradient2 {
+    background-image: linear-gradient(205.14deg, #D62977 11.68%, #ED8128 88.3%);
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 8px;
+}
+
+.left-users__gradient2 img {
+    background-image: linear-gradient(white, white);
+    border-radius: 336px;
+    padding: 3px;
+    width: 52px;
+    height: 52px;
+}
+
+.items-user__name {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.items-user__time {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #8D8D8D;
+}
+
+.insta-content__items-user {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.items-user__profile {
+    display: flex;
+}
+
+.content__post-p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.insta-content__post {
+    margin-left: 5px;
+}
+
+.content__post-p span {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #9A9A9A;
+}
+
+.insta-content__post-like {
+    width: 188px;
+    height: 46px;
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 78px;
+}
+
+.insta-content__post-like {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post-like__count {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.another__user-title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.post-like__img {
+    width: 24px;
+    height: 24px;
+}
+
+.post-like__another-coment {
+    width: 91%;
+}
+
+.another-sms__m {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    margin-right: 10px;
+    color: #9A9A9A;
+}
+
+.another-sms__back {
+    width: 229px;
+    height: 36px;
+    background: #F8F8F8;
+    border: 1px solid #9A9A9A;
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 42px;
+}
+
+.another-sms__text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #9A9A9A;
+}
+
+.insta-container2 {
+    position: absolute;
+    top: 858px;
+    width: 896px;
+    height: 205px;
+    background: #EFEFEF;
+    border-radius: 36px 36px 0px 0px;
+    left: 210px;
+}
+
+.insta-container2__items {
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.items2-user3 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.new {
+    position: absolute;
+    top: 35px;
+    left: 67px;
+}
+
+.insta-container__right {
+    margin-top: 37px;
+    margin-left: 10%;
+}
+
+.insta-container__right__item {
+    width: 225px;
+    height: 114px;
+    background: #EFEFEF;
+    border-radius: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.right__mobile {
+    background: url(../img/Rectangle\ 16.png);
+    width: 477px;
+    height: 847px;
+    background-repeat: no-repeat;
+}
+
+.top-line-1 {
+    width: 103px;
+    height: 3px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    margin-right: 5px;
+}
+
+.mobile__top-line {
+    margin-top: 39px;
+}
+
+.top-line-1 {
+    width: 103px;
+    height: 3px;
+
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+
+.top-line-2 {
+    width: 55px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border-radius: 11px;
+}
+
+.top-line-3 {
+    width: 45px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 9px;
+    border-radius: 11px;
+}
+
+.mobile__user__name {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 19px;
+
+}
+
+.mobile__user__name span {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.mobile-img {
+    margin-top: 19px;
+}
+
+.mobile__play__icon {
+    margin-top: 10px;
+}
+
+input {
+    width: 361px;
+    height: 66px;
+    background: none;
+    border: 3px solid #F8F8F8;
+    border-radius: 43px;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+input::placeholder {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 127.01%;
+    /* or 30px */
+    letter-spacing: -0.055em;
+    color: #F8F8F8;
+    padding-left: 28px;
+    
+}
+
+.arrow-arrow {
+    position: absolute;
+    top: 506px;
+    width: 49px;
+    left: 1135px;
+    height: 97px;
+    background: #EFEFEF;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.copied {
+    position: absolute;
+    z-index: 8;
+    top: 28px;
+    left: 503px;
+}
+input[textarea] {
+    
+    padding-left: 28px;
+    
+}
